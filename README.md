@@ -1,4 +1,4 @@
-# Ai-Research.id
+# AI-Research.id
 
 A placeholder for the https://ai-research.id website.
 
