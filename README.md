@@ -5,24 +5,35 @@ A placeholder for the https://ai-research.id website.
 * [Getting started](#getting-started)
 
 ## Getting started
-There are two ways to run this website, manual installation and using Docker.
+There are two ways to run this website, without Docker and using Docker.
 
-### Manual installation
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from
-[this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* Next, use your command line to enter your project directory.
-* Run `npm install` to install all the dependencies into your project.
+Clone this repo:
+```
+git clone https://github.com/indonesian-nlp/ai-research.id.git
+```
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"`
-object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and
-watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will
-automatically inject the changed file(s)!
+```
+cd ai-research.id
+```
+
+### Without Docker
+First, make sure to [install `hugo`](https://gohugo.io/getting-started/installing/).
+
+After that, run:
+
+```
+hugo server
+```
+
+The website will be run in `localhost:1313`.
 
 ### Docker
-* Build the docker image: `docker build . -t ai-research.id`
-* Run the docker image: `docker run -d -p 3000:3000 ai-research.id`
-* Access the website http://localhost:3000/
+Run:
+```
+docker-compose up
+```
+
+The website will be run in `localhost:1313`.
 
 ## Acknowledge
-This website template has been copied from [Laurel](https://cruip.com/laurel/), a dark and elegant landing
-page template.
+This website template is based on [Blogophonic](https://github.com/formspree/blogophonic-hugo/).
