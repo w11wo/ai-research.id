@@ -5,13 +5,10 @@ header:
   - name: About
     title: About Us
     url: /about/
-  - name: Blog
-    title: Blog
-    url: /blog/
   - name: Projects
     title: Projects
     url: /projects/
-  - name: NLP-Resources
+  - name: Resources
     title: Indonesian NLP Resources
     url: /nlp-resources/
   - name: Contact
