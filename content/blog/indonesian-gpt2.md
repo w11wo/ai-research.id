@@ -5,6 +5,8 @@ excerpt: "Building this static site generator theme was the first time I used an
 date: 2021-06-01
 author: "AI-Research.id team"
 draft: false
+images:
+  - /blog/assets/css-grid-thumbnail.png
 series:
   - huggingface jax flax event
 tags:
