@@ -17,8 +17,6 @@ categories:
 layout: single-sidebar
 ---
 
-# Multilingual Speech Recognition for Indonesian Languages
-
 [*Speech Recognition Live Demo*](https://huggingface.co/spaces/indonesian-nlp/multilingual-asr)
 ## Introduction
 Automatic Speech Recognition (ASR) enables the recognition and translation of spoken language into text. Typically
