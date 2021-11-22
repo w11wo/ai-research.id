@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: "Blog posts on our researches and projects."
+title: Projects
+description: "List of our researches and projects."
 author: ai-research.id
 images:
   - https://via.placeholder.com/960x480?text=SECTION+IMAGE
