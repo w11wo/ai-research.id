@@ -2,7 +2,7 @@ blog: # must match the slug of your blog
   single_sidebar: # for single-sidebar layout
     image:
     title: Blog
-    description: "Blog posts on our researches and projects."
+    description: "Blog posts on our researches and projects"
     author: 
     text_link_label: View Recent Posts
     text_link_url: /blog
@@ -11,6 +11,24 @@ blog: # must match the slug of your blog
     image:
     title: Blog
     description: "Blog posts on our researches and projects."
+    author: ai-research.id
+    text_link_label: Subscribe via RSS
+    text_link_url: /index.xml
+    show_sidebar_adunit: true # show ad container
+
+projects: # must match the slug of your blog
+  single_sidebar: # for single-sidebar layout
+    image:
+    title: Projects
+    description: "Projects posts on our researches and projects"
+    author:
+    text_link_label: View Recent Posts
+    text_link_url: /projects
+    show_sidebar_adunit: true # show ad container
+  list_sidebar: # for list-sidebar layout
+    image:
+    title: Projects
+    description: "List of our Projects."
     author: ai-research.id
     text_link_label: Subscribe via RSS
     text_link_url: /index.xml
