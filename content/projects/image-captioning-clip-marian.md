@@ -6,7 +6,7 @@ date: 2021-06-01
 author: "AI-Research.id Team"
 draft: false
 images:
-  - /blog/assets/css-grid-thumbnail.png
+  - /projects/assets/css-grid-thumbnail.png
 series:
   - huggingface jax flax event
 tags:

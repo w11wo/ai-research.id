@@ -6,7 +6,7 @@ date: 2021-03-01
 author: "AI-Research.id team"
 draft: false
 images:
-  - /blog/assets/css-grid-thumbnail.png
+  - /projects/assets/css-grid-thumbnail.png
 series:
   - HuggingFace wav2vec 2.0 event
 tags:

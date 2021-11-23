@@ -5,9 +5,9 @@ header:
   - name: About
     title: About Us
     url: /about/
-  - name: Projects
-    title: Projects
-    url: /projects/
+  - name: Blog
+    title: Blog
+    url: /blog/
   - name: Resources
     title: Indonesian NLP Resources
     url: /nlp-resources/
