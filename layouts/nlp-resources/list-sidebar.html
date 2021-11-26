@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="page-main pa4 {{ .Kind }}" role="main">
+  <section class="blog-content mw7 center">
+    {{ $paginator := .Paginate (where .Pages "Type" "nlp-resources") }}
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+    {{ partial "shared/list-pagination.html" . }}
+  </section>
+</main>
+<aside class="page-sidebar" role="complementary">
+  <div class="blog-info pa4">
+    {{ if .Title }}<h1 class="f3">{{ .Title }}</h1>{{ end }}
+    {{ if .Description }}<p class="f6 lh-copy measure">{{ .Description | markdownify }}</p>{{ end }}
+    {{ if .Author }}<p class="f7 measure lh-copy i mh0-l">Written by {{ .Author }}</p>{{ end }}
+  </div>
+</aside>
+{{ end }}

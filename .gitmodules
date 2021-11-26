@@ -1,0 +1,3 @@
+[submodule "content-extra/nlp-resources"]
+	path = content-extra/nlp-resources
+	url = git@github.com:indonesian-nlp/nlp-resources.git
