@@ -1,0 +1,43 @@
+/* You can add custom styles here. */
+
+/* Light mode theming */
+:root, :root[color-mode="light"] {
+    --header-background: #4051B5;
+
+    --button-border-color: #4051B5;
+
+    --link-color: #4051b5;
+    --link-color-visited: #4051b5;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --header-background: #4051B5;
+        
+        --button-border-color: #4051B5;
+        
+        --link-color: #4051b5;
+        --link-color-visited: #4051b5;
+    }
+}
+
+/* Dark mode theming */
+:root[color-mode="dark"] {
+    --header-background: #4051B5;
+
+    --button-border-color: #4051B5;
+
+    --link-color: #8392e1;
+    --link-color-visited: #8392e1;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-background: #4051B5;
+        
+        --button-border-color: #4051B5;
+        
+        --link-color: #8392e1;
+        --link-color-visited: #8392e1;
+    }
+}

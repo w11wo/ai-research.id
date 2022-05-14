@@ -1,16 +1,39 @@
 ---
 title: Projects
-description: "List of our researches and projects."
-author: ai-research.id
-images:
-  - https://via.placeholder.com/960x480?text=SECTION+IMAGE
-date: 2019-02-20T09:31:27-06:00
-publishDate: 2019-02-20T09:31:27-06:00
-layout: list-sidebar # list, list-sidebar, list-grid
-show_post_thumbnail: true
-show_author_byline: false
-show_post_date: true
-show_disqus_comments: false # see disqusShortname in site config
 ---
 
-** No content for the blog index. This file provides front matter for the blog including the layout and boolean options. **
+## Indonesian Automatic Speech Recognition using Wav2Vec2
+
+<figure style="text-align:center">
+  <img src="../images/xls_r.png" />
+  <figcaption style="font-style:italic">XLS-R by Arun Babu, Changhan Wang, Andros Tjandra, et al.</figcaption>
+</figure>
+
+We fine-tuned an Indonesian ASR model using wav2vec2 on the Indonesian common voice dataset. On the test subset of Indonesian Common Voice, our model achieved a Word Error Rate of 14.290. We released our model on the [Hub](https://huggingface.co/indonesian-nlp/wav2vec2-large-xlsr-indonesian).
+
+## Multilingual Speech Recognition for Indonesian Languages
+
+<figure style="text-align:center">
+  <img src="../images/ASR-Comparison-2022.png" />
+  <figcaption style="font-style:italic">Multilingual ASR Performance by <a href="https://github.com/indonesian-nlp/multilingual-asr">Cahya Wirawan</a>.</figcaption>
+</figure>
+
+We built a Multilingual Speech Recognition model for Indonesian, Javanese and Sundanese. On the test subset of Indonesian Common Voice 7, our model achieved a Word Error Rate of 4.492. We also provide a [live demo](https://huggingface.co/spaces/indonesian-nlp/multilingual-asr) to test the model. We released our model on the [Hub](https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese). You can learn more about this [here](multilingual_asr).
+
+## Indonesian GPT2 and its Applications
+
+<figure style="text-align:center">
+  <img src="https://jalammar.github.io/images/xlnet/gpt-2-autoregression-2.gif" />
+  <figcaption style="font-style:italic">GPT-2 Illustrated by <a href="https://jalammar.github.io/illustrated-gpt2/">Jay Alammar</a>.</figcaption>
+</figure>
+
+We pre-trained three Indonesian GPT-2 models ([small](https://huggingface.co/flax-community/gpt2-small-indonesian), [medium](https://huggingface.co/flax-community/gpt2-medium-indonesian), and large) on Indonesian subsets of OSCAR, mC4 and Wikipedia (29GB of text data). We then further fine-tuned these models to various applications, such as [story generation](https://huggingface.co/cahya/gpt2-medium-indonesian-story), [academic journal abstract generation](https://huggingface.co/Galuh/id-journal-gpt2), and [chatbots](https://huggingface.co/cahya/gpt2-small-indonesian-personachat). We provide a [live demo](https://huggingface.co/spaces/indonesian-nlp/gpt2-app) to test these models.
+
+## Image Captioning using CLIP and Marian
+
+<figure style="text-align:center">
+  <img src="https://openaiassets.blob.core.windows.net/$web/clip/draft/20210104b/overview-a.svg" />
+  <figcaption style="font-style:italic">OpenAI CLIP by Radford et al.</figcaption>
+</figure>
+
+We built an Indonesian image captioning model using [CLIP](https://huggingface.co/transformers/model_doc/clip.html) as the visual encoder and [Marian](https://huggingface.co/transformers/model_doc/marian.html) as the textual decoder on datasets with Indonesian captions. We provide a [live demo](https://huggingface.co/spaces/flax-community/indonesian-image-captioning) to test these models.
